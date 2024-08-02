@@ -39,7 +39,9 @@ while (prompt1 === prompt2) {
     prompt2 = assign();
 }
 
-alert("Pentru cea mai buna experienta, foloseste modul Landscape")
+if(window.innerHeight > window.innerWidth){
+    alert("Pentru cea mai buna experienta, foloseste modul Landscape")
+}
 
 document.getElementById("name1").textContent = prompt1.name;
 document.getElementById("desc1").textContent = prompt1.desc;
@@ -53,6 +55,9 @@ function assign() {
 }
 
 function makeGuess(guess) {
+    if(window.innerHeight > window.innerWidth){
+        alert("Pentru cea mai buna experienta, foloseste modul Landscape")
+    }
     let correct = compare(prompt1, prompt2, guess);
     if (correct) {
         score++;
