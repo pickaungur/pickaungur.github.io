@@ -39,7 +39,7 @@ while (prompt1 === prompt2) {
     prompt2 = assign();
 }
 
-console.log(prompt1.name)
+alert("Pentru cea mai buna experienta, foloseste modul Landscape")
 
 document.getElementById("name1").textContent = prompt1.name;
 document.getElementById("desc1").textContent = prompt1.desc;
