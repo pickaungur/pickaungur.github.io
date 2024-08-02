@@ -1,0 +1,11 @@
+{
+  "name": "pick-a-ungur",
+  "version": "1.0.0",
+  "description": "Pai alege un ungur",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alin Lupau",
+  "license": "ISC"
+}
