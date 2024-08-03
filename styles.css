@@ -88,3 +88,31 @@ button:hover {
     border-radius: 5px;
     opacity: 0.8;
 }
+
+.win-container {
+    text-align: center;
+}
+
+.win-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.win-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.win-container button:hover {
+    background-color: #218838;
+}
+
+.win-body {
+    background-image: url('img/happy.png');
+    background-size: 100% 100%;
+}
